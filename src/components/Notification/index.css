@@ -1,0 +1,99 @@
+/* Write your CSS here */
+.notification-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  padding-bottom: 40px;
+  border-style: solid;
+  border-color: #e5e5e5;
+  border-width: 1px;
+  border-radius: 2px;
+  height: 120px;
+  margin-bottom: 26px;
+  width: 80%;
+  flex-shrink: 2;
+}
+
+.check-icon {
+  color: #2dca73;
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+
+.error-icon {
+  color: #ff0b37;
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+
+.warning-icon {
+  color: #ffb800;
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+
+.info-icon {
+  color: #0f81e0;
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+
+.content-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: auto;
+  margin-top: 0px;
+}
+
+.success-heading {
+  color: #2dca73;
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.error-heading {
+  color: #ff0b37;
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.warning-heading {
+  color: #ffb800;
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.info-heading {
+  color: #0f81e0;
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.para {
+  color: #64748b;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.close-icon {
+  min-width: 20px;
+  min-height: 20px;
+  margin-left: 20px;
+  padding: 0px;
+}
